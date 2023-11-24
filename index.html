@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.min.css">
+
+		<title>Главная</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container _container">
+					<div class="header__image-logo">
+						<img src="images/logo-menu.svg" alt="logo header hearts">
+					</div>
+					<nav class="header__menu">
+						<ul class="header__items">
+							<li class="header__item">
+								<a href="index.html" class="header__link">Главная страница</a>
+							</li>
+							<li class="header__item">
+								<a href="company.html" class="header__link">Компания
+								</a>
+							</li>
+							<li class="header__item">
+								<a href="game.html" class="header__link">Игры
+								</a>
+							</li>
+							<li class="header__item">
+								<a href="career.html" class="header__link">Карьера</a>
+							</li>
+							<li class="header__item">
+								<a href="news.html" class="header__link">Новости</a>
+							</li>
+							<li class="header__item">
+								<a href="contacts.html" class="header__link">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__eng">
+						<a href="#" class="header__eng-link">ENG</a>
+					</div>
+					<div class="header__burger">
+						<span></span>
+					</div>
+
+				</div>
+			</header>
+			<main class="main">
+				<div class="block-yellow"></div>
+				<div class="top">
+					<div class="top__container _container">
+						<div class="top__column">
+							<div class="top__title">Мы создаем мобильные игры, в которые играют
+								миллионы</div>
+							<div class="top__row">
+								<div class="top__row-img">
+									<a href="https://www.pinterest.com/"><img
+											src="images/Pintrest-footer.svg"
+											alt="Pintrest-top image"></a>
+									<a href="https://www.behance.net/"><img src="images/Behance-footer.svg"
+											alt="Behance-top image"></a>
+									<a href="https://dribbble.com/"><img src="images/Dribbble-footer.svg"
+											alt="Dribbble-top image"></a>
+									<a href="https://www.snapchat.com/"><img
+											src="images/Snapchat-footer.svg"
+											alt="Snapchat-top image"></a>
+									<a href="https://linkedin.com/"><img src="images/Linkedin-footer.svg"
+											alt="Linkedin-top image"></a>
+									<a href="https://www.facebook.com/"><img
+											src="images/Facebook-footer.svg"
+											alt="Facebook-top image"></a>
+								</div>
+								<div class="top__romb">
+									<div class="top__text-romb">Узнать
+										подробнее</div>
+									<div class="top__romb-row">
+										<img src="images/Arrow-main.svg" alt>
+									</div>
+								</div>
+								<div class="top__text">
+									«Оригинальные идеи, качество реализации игровых механик и внимание к
+									деталям интерфейса - наши основные принципы.»
+								</div>
+							</div>
+						</div>
+						<div class="top__image">
+						<img src="images/unicorn.webp" alt="Unicorn bg image"></div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__link-left">
+						<a href="#" class="footer__link">© Toy.Stream, Inc.</a>
+					</div>
+					<nav class="footer__menu">
+						<ul class="footer__items">
+							<li class="footer__item">
+								<a href="index.html" class="footer__link">Главная страница</a>
+							</li>
+							<li class="footer__item">
+								<a href="company.html" class="footer__link">Компания
+								</a>
+							</li>
+							<li class="footer__item">
+								<a href="game.html" class="footer__link">Игры
+								</a>
+							</li>
+							<li class="footer__item">
+								<a href="career.html" class="footer__link">Карьера</a>
+							</li>
+							<li class="footer__item">
+								<a href="news.html" class="footer__link">Новости</a>
+							</li>
+							<li class="footer__item">
+								<a href="contacts.html" class="footer__link">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="footer__row-img">
+						<a href="https://www.pinterest.com/"><img src="images/Pintrest-footer.svg"
+								alt="Pintrest-footer image"></a>
+						<a href="https://www.behance.net/"><img src="images/Behance-footer.svg"
+								alt="Behance-footer image"></a>
+						<a href="https://dribbble.com/"><img src="images/Dribbble-footer.svg"
+								alt="Dribbble-footer image"></a>
+						<a href="https://www.snapchat.com/"><img src="images/Snapchat-footer.svg"
+								alt="Snapchat-footer image"></a>
+						<a href="https://linkedin.com/"><img src="images/Linkedin-footer.svg"
+								alt="Linkedin-footer image"></a>
+						<a href="https://www.facebook.com/"><img src="images/Facebook-footer.svg"
+								alt="Facebook-footer image"></a>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script
+			src="js/main.min.js">
+	</script>
+		<script>
+		document.querySelector('.header__burger').addEventListener('click', function(){
+				this.classList.toggle('active');
+				document.querySelector('.header__menu').classList.toggle('open');
+			})
+			</script>
+	</body>
+</html>
